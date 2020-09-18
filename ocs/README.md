@@ -7,11 +7,11 @@ NOTE: The assumption is that OCS is deployed in the namespace (or project) "open
 
 Navigate to the OpenShift console. Under the Administrator view, go to Operators on the left tab and click on OperatorHub. Search for the OpenShift Container Storage operator in the search bar. Click on it to install and subscribe to the operator.
 
-![OCS OperatorHub](/images/ocs_operatorhub.png)
+![OCS OperatorHub](/ocs/images/ocs_operatorhub.png)
 
 If you go to Installed Operators and select the openshift-storage project, you should see the OpenShift Container Storage operator successfully installed:
 
-![OCS Installed](/images/ocs_installed.png)
+![OCS Installed](/ocs/images/ocs_installed.png)
 
 The above steps just installs the OCS operator. To setup a storage based out of OCS for application consumption, a storagecluster
 has to be created. The below steps mentions the steps to follow for creating a complete OCS cluster that can be consumed as PVs
