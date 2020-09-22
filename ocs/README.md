@@ -2,7 +2,7 @@
 The deployment of OCS in an OCP environment is not any different from the
 recommended steps in OCS documentation.
 
-NOTE: The assumption is that OCS is deployed in the namespace (or project) "openshift-storage". Create if it does not exist. It can be created from\
+NOTE: The assumption is that OCS is deployed in the namespace (or project) "openshift-storage". Create if it does not exist. It can be created from
       openshift console.
 
 Navigate to the OpenShift console. Under the Administrator view, go to Operators on the left tab and click on OperatorHub. Search for the OpenShift Container Storage operator in the search bar. Click on it to install and subscribe to the operator.
